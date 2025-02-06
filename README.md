@@ -6,7 +6,7 @@ Follow these steps to run the Quote Generator locally:
 
 1. **Clone the Repository:**
    ```bash
-    gh repo clone Garimatech19/quote-generator
+    git clone https://github.com/Garimatech19/quote-generator.git
    ```
 2. **Install Dependencies:**
    ```bash
