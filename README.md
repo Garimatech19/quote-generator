@@ -19,20 +19,6 @@ Follow these steps to run the Quote Generator locally:
 4. **Open the Application:**
    - Navigate to `http://localhost:3000` in your web browser.
 
-## Project Structure
-
-```
-📂 project-root
-├── 📂 src
-│   ├── 📄 App.tsx          # Main component
-│   ├── 📄 QuoteGenerator.tsx # Quote generator component
-│   ├── 📂 components      # Additional UI components
-│   ├── 📂 styles          # Styling files
-├── 📄 package.json       # Dependencies and scripts
-├── 📄 README.md          # Project documentation
-└── 📄 tsconfig.json      # TypeScript configuration
-```
-
 ## Features
 - Displays random quotes fetched from an API.
 - Allows users to mark quotes as favorites.
