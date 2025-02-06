@@ -1,50 +1,70 @@
-# React + TypeScript + Vite
+# Quote Generator
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Instructions to Run the Project Locally
 
-Currently, two official plugins are available:
+Follow these steps to run the Quote Generator locally:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+1. **Clone the Repository:**
+   ```bash
+   git clone <repository-url>
+   cd <repository-name>
+   ```
 
-## Expanding the ESLint configuration
+2. **Install Dependencies:**
+   ```bash
+   npm install
+   ```
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+3. **Start the Development Server:**
+   ```bash
+   npm run dev
+   ```
 
-- Configure the top-level `parserOptions` property like this:
+4. **Open the Application:**
+   - Navigate to `http://localhost:3000` in your web browser.
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
+## Project Structure
+
+```
+📂 project-root
+├── 📂 src
+│   ├── 📄 App.tsx          # Main component
+│   ├── 📄 QuoteGenerator.tsx # Quote generator component
+│   ├── 📂 components      # Additional UI components
+│   ├── 📂 styles          # Styling files
+├── 📄 package.json       # Dependencies and scripts
+├── 📄 README.md          # Project documentation
+└── 📄 tsconfig.json      # TypeScript configuration
 ```
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+## Features
+- Displays random quotes fetched from an API.
+- Allows users to mark quotes as favorites.
+- Implements a dark/light mode toggle.
+- Features a sidebar drawer to view and manage favorite quotes.
+- Mobile-friendly and responsive design.
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
+## Screenshots
+### Light Mode
+![Light Mode](screenshots/light-mode.png)
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+### Dark Mode
+![Dark Mode](screenshots/dark-mode.png)
+
+### Favorites Drawer
+![Favorites Drawer](screenshots/favorites-drawer.png)
+
+## Additional Notes
+- **API Usage:** The application fetches quotes from `https://dummyjson.com/quotes`.
+- **Local Storage:** Favorites are stored in local state but reset on page reload.
+- **Mobile Adaptation:** The favorite quotes drawer adjusts responsively to avoid overlap.
+
+## Assumptions
+- The API will always return valid quotes.
+- The user wants to clear favorites on page reload.
+- The UI should prioritize accessibility and responsiveness.
+
+---
+
+Feel free to modify the project and contribute!
+
