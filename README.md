@@ -42,13 +42,13 @@ Follow these steps to run the Quote Generator locally:
 
 ## Screenshots
 ### Light Mode
-![Light Mode](screenshots/light-mode.png)
+![Light Mode](https://github.com/user-attachments/assets/79cf2bbc-243e-4fef-be3a-6f2348aa87aa)
 
 ### Dark Mode
-![Dark Mode](screenshots/dark-mode.png)
+![Dark Mode](https://github.com/user-attachments/assets/84633a67-ea26-4ca1-b437-0a26d86aa0cf)
 
 ### Favorites Drawer
-![Favorites Drawer](screenshots/favorites-drawer.png)
+![Favorites Drawer](https://github.com/user-attachments/assets/afdc1ed5-77bf-49c8-9323-a39c1ad3b2b2)
 
 ## Additional Notes
 - **API Usage:** The application fetches quotes from `https://dummyjson.com/quotes`.
