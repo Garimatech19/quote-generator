@@ -18,6 +18,17 @@ Follow these steps to run the Quote Generator locally:
    ```
 4. **Open the Application:**
    - Navigate to `http://localhost:3000` in your web browser.
+  
+## Project Structure
+quote-generator/
+│-- public/            # Static assets
+│-- src/
+│   │-- styles/        # TailwindCSS styles
+│   │-- App.tsx        # Main app component (TypeScript)
+│   │-- index.tsx      # Entry point of the application
+│-- tsconfig.json      # TypeScript configuration file
+│-- package.json       # Project dependencies and scripts
+│-- README.md          # Project documentation
 
 ## Features
 - Displays random quotes fetched from an API.
