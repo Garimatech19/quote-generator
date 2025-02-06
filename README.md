@@ -6,20 +6,16 @@ Follow these steps to run the Quote Generator locally:
 
 1. **Clone the Repository:**
    ```bash
-   git clone <repository-url>
-   cd <repository-name>
+    gh repo clone Garimatech19/quote-generator
    ```
-
 2. **Install Dependencies:**
    ```bash
    npm install
    ```
-
 3. **Start the Development Server:**
    ```bash
    npm run dev
    ```
-
 4. **Open the Application:**
    - Navigate to `http://localhost:3000` in your web browser.
 
