@@ -1,5 +1,20 @@
 # Quote Generator
 
+##Project Description
+The Quote Generator is a web application built using modern frontend technologies. It allows users to generate random quotes from an external API and displays them in a clean and responsive UI. The project is designed with scalability and maintainability in mind, making it easy to extend and customize.
+
+###Tech Stack Used
+
+TypeScript: Ensures type safety and better code maintainability.
+
+React.js: Provides a dynamic and efficient UI.
+
+TailwindCSS: Used for styling and ensuring a modern, responsive design.
+
+Vite: Fast build tool for frontend development.
+
+Axios: Handles API requests efficiently.
+
 ## Instructions to Run the Project Locally
 
 Follow these steps to run the Quote Generator locally:
